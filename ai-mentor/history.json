@@ -1,0 +1,1082 @@
+{
+    "gowseefaammu@gmail.com": [
+        {
+            "q": "Sum of two numbers ",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "0/1 Knapsack",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(W)",
+                        "desc": "Iterative approach to find optimal subset sums."
+                    },
+                    {
+                        "name": "Recursion with Memoization",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(NW)",
+                        "desc": "Top-down approach to avoid redundant work."
+                    },
+                    {
+                        "name": "Bitmask DP",
+                        "type": "DP",
+                        "time": "O(2^N * N)",
+                        "space": "O(2^N)",
+                        "desc": "Used for small N where all combinations must be checked."
+                    },
+                    {
+                        "name": "Greedy Approach",
+                        "type": "Greedy",
+                        "time": "O(N log N)",
+                        "space": "O(1)",
+                        "desc": "Fast but only works for specific coin denominations."
+                    }
+                ],
+                "best": "0/1 Knapsack",
+                "reason": "It is the standard and most reliable way to solve subset sum variations."
+            },
+            "d": "2026-03-05 02:49"
+        },
+        {
+            "q": "Multiple solutions ",
+            "r": {
+                "type": "personal",
+                "message": "I'm ready to analyze your specific algorithm problem! Please paste a problem statement (e.g., about trees, sorting, or arrays) and I'll find the best strategies for you."
+            },
+            "d": "2026-03-05 02:47"
+        },
+        {
+            "q": "sum of two numbers",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "0/1 Knapsack",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(W)",
+                        "desc": "Iterative approach to find optimal subset sums."
+                    },
+                    {
+                        "name": "Recursion with Memoization",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(NW)",
+                        "desc": "Top-down approach to avoid redundant work."
+                    },
+                    {
+                        "name": "Bitmask DP",
+                        "type": "DP",
+                        "time": "O(2^N * N)",
+                        "space": "O(2^N)",
+                        "desc": "Used for small N where all combinations must be checked."
+                    },
+                    {
+                        "name": "Greedy Approach",
+                        "type": "Greedy",
+                        "time": "O(N log N)",
+                        "space": "O(1)",
+                        "desc": "Fast but only works for specific coin denominations."
+                    }
+                ],
+                "best": "0/1 Knapsack",
+                "reason": "It is the standard and most reliable way to solve subset sum variations."
+            },
+            "d": "2026-03-05 02:44"
+        },
+        {
+            "q": "average of two numbers",
+            "r": {
+                "type": "personal",
+                "message": "I'm ready to analyze your specific algorithm problem! Please paste a problem statement (e.g., about shortest paths, sorting, or arrays) and I'll find the best strategies for you."
+            },
+            "d": "2026-03-05 02:42"
+        },
+        {
+            "q": "Sum of three numbers ",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "0/1 Knapsack",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(W)",
+                        "desc": "Iterative approach to find optimal subset sums."
+                    },
+                    {
+                        "name": "Recursion with Memoization",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(NW)",
+                        "desc": "Top-down approach to avoid redundant work."
+                    },
+                    {
+                        "name": "Bitmask DP",
+                        "type": "DP",
+                        "time": "O(2^N * N)",
+                        "space": "O(2^N)",
+                        "desc": "Used for small N where all combinations must be checked."
+                    },
+                    {
+                        "name": "Greedy Approach",
+                        "type": "Greedy",
+                        "time": "O(N log N)",
+                        "space": "O(1)",
+                        "desc": "Fast but only works for specific coin denominations."
+                    }
+                ],
+                "best": "0/1 Knapsack",
+                "reason": "It is the standard and most reliable way to solve subset sum variations."
+            },
+            "d": "2026-03-05 02:40"
+        },
+        {
+            "q": "my name is gowseefa",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:34"
+        },
+        {
+            "q": "my name is gowseefa",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:34"
+        },
+        {
+            "q": "palindrome",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:34"
+        },
+        {
+            "q": "palindrome",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:33"
+        },
+        {
+            "q": "shortest path",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Dijkstra's Algorithm",
+                        "type": "Graph",
+                        "time": "O(E log V)",
+                        "space": "O(V)",
+                        "desc": "Optimal for weighted graphs without negative edges."
+                    },
+                    {
+                        "name": "Breadth First Search",
+                        "type": "Graph",
+                        "time": "O(V + E)",
+                        "space": "O(V)",
+                        "desc": "Best for unweighted shortest paths."
+                    },
+                    {
+                        "name": "Bellman-Ford",
+                        "type": "Graph",
+                        "time": "O(VE)",
+                        "space": "O(V)",
+                        "desc": "Handles negative edge weights correctly."
+                    },
+                    {
+                        "name": "A* Search",
+                        "type": "Heuristic",
+                        "time": "O(E)",
+                        "space": "O(V)",
+                        "desc": "Used for pathfinding with heuristics."
+                    }
+                ],
+                "best": "Dijkstra's Algorithm",
+                "reason": "It offers the best performance for standard competitive programming shortest path problems."
+            },
+            "d": "2026-03-05 02:33"
+        },
+        {
+            "q": "average of three numbers",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:30"
+        },
+        {
+            "q": "average of three numbers",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Binary Search",
+                        "type": "Searching",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Efficiently find an element in a sorted collection."
+                    },
+                    {
+                        "name": "Quick Sort",
+                        "type": "Sorting",
+                        "time": "O(N log N)",
+                        "space": "O(log N)",
+                        "desc": "In-place, efficient sorting algorithm."
+                    },
+                    {
+                        "name": "Two Pointers",
+                        "type": "Linear",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Used for searching pairs or subarrays in linear time."
+                    },
+                    {
+                        "name": "Sliding Window",
+                        "type": "Optimization",
+                        "time": "O(N)",
+                        "space": "O(k)",
+                        "desc": "Handles contiguous subarray/string problems efficiently."
+                    }
+                ],
+                "best": "Binary Search",
+                "reason": "When in doubt, many hard problems can be reduced to binary searching over the answer."
+            },
+            "d": "2026-03-05 02:29"
+        },
+        {
+            "q": "sum of  three numbers",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "0/1 Knapsack",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(W)",
+                        "desc": "Iterative approach to find optimal subset sums."
+                    },
+                    {
+                        "name": "Recursion with Memoization",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(NW)",
+                        "desc": "Top-down approach to avoid redundant work."
+                    },
+                    {
+                        "name": "Bitmask DP",
+                        "type": "DP",
+                        "time": "O(2^N * N)",
+                        "space": "O(2^N)",
+                        "desc": "Used for small N where all combinations must be checked."
+                    },
+                    {
+                        "name": "Greedy Approach",
+                        "type": "Greedy",
+                        "time": "O(N log N)",
+                        "space": "O(1)",
+                        "desc": "Fast but only works for specific coin denominations."
+                    }
+                ],
+                "best": "0/1 Knapsack",
+                "reason": "It is the standard and most reliable way to solve subset sum variations."
+            },
+            "d": "2026-03-05 02:28"
+        },
+        {
+            "q": "average of two numbers",
+            "r": {
+                "type": "personal",
+                "message": "(Offline Mode) Try describing a specific task like 'finding the shortest path' or 'calculating the sum' to see pre-built algorithmic strategies!"
+            },
+            "d": "2026-03-05 02:13"
+        },
+        {
+            "q": "shortest path",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Dijkstra",
+                        "type": "Graph",
+                        "time": "O(E log V)",
+                        "space": "O(V)",
+                        "desc": "The best choice for weighted graphs without negative edges."
+                    }
+                ],
+                "best": "Dijkstra",
+                "reason": "Perfect balance of speed and accuracy."
+            },
+            "d": "2026-03-05 02:10"
+        },
+        {
+            "q": "sum of three numbers",
+            "r": {
+                "type": "personal",
+                "message": "(Offline Mode) Try describing a specific task like 'finding the shortest path' or 'calculating the sum' to see pre-built algorithmic strategies!"
+            },
+            "d": "2026-03-05 01:56"
+        },
+        {
+            "q": "Sum of three numbers ",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Recursion",
+                        "type": "Basics",
+                        "time": "O(2^N)",
+                        "space": "O(N)",
+                        "desc": "The simplest approach that explores every possible combination by branching out. While easy to write, it becomes extremely slow as the number of elements grows due to redundant calculations."
+                    },
+                    {
+                        "name": "0/1 Knapsack",
+                        "type": "DP",
+                        "time": "O(NW)",
+                        "space": "O(W)",
+                        "desc": "Uses a table to store the results of smaller sub-problems. By building up the solution bottom-up, it avoids re-calculating the same sums, making it vastly more efficient than pure recursion."
+                    },
+                    {
+                        "name": "Meet-in-Middle",
+                        "type": "Search",
+                        "time": "O(N 2^(N/2))",
+                        "space": "O(2^(N/2))",
+                        "desc": "A clever optimization for large N. It splits the set into two halves, calculates all possible sums for each, and then combines them using binary search to find the target sum quickly."
+                    },
+                    {
+                        "name": "Greedy",
+                        "type": "Heuristic",
+                        "time": "O(N log N)",
+                        "space": "O(1)",
+                        "desc": "A fast strategy that always picks the largest available element next. It's lightning fast but 'short-sighted'\u2014it doesn't always find the perfect exact sum, making it risky for some problems."
+                    }
+                ],
+                "best": "0/1 Knapsack",
+                "reason": "Dynamic Programming (Knapsack) is the standard for these problems because it handles constraints reliably and avoids the exponential explosion of recursion."
+            },
+            "d": "2026-03-05 00:55"
+        },
+        {
+            "q": "shortest path",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "BFS",
+                        "type": "Graph",
+                        "time": "O(V+E)",
+                        "space": "O(V)",
+                        "desc": "Ideal for finding the absolute shortest path in unweighted graphs. It explores all neighbors at the current depth before moving deeper, ensuring the first time you reach the target, it's the shortest way."
+                    },
+                    {
+                        "name": "Dijkstra",
+                        "type": "Graph",
+                        "time": "O(E log V)",
+                        "space": "O(V)",
+                        "desc": "The best choice for weighted graphs with non-negative edges. It uses a priority queue to always 'greedy' pick the closest node, guaranteeing an optimal mathematical path through complex networks."
+                    },
+                    {
+                        "name": "Bellman-Ford",
+                        "type": "Graph",
+                        "time": "O(VE)",
+                        "space": "O(V)",
+                        "desc": "A versatile algorithm that can handle weights and negative edges. It works by relaxing all edges repeatedly, making it slower than Dijkstra but much more robust against edge cases like negative cycles."
+                    },
+                    {
+                        "name": "Floyd-Warshall",
+                        "type": "Graph/DP",
+                        "time": "O(V\u00b3)",
+                        "space": "O(V\u00b2)",
+                        "desc": "A powerful Dynamic Programming approach that calculates the shortest distance between EVERY single pair of nodes in the graph simultaneously. Essential for dense graphs."
+                    }
+                ],
+                "best": "Dijkstra",
+                "reason": "Dijkstra provides the perfect balance of speed and accuracy for most weighted routing problems found in competitive programming."
+            },
+            "d": "2026-03-05 00:34"
+        },
+        {
+            "q": "average of two numbers",
+            "r": {
+                "type": "algo",
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Uses two markers (left and right) that move toward each other or in the same direction. It's incredibly efficient because it processes the entire array in a single pass without extra memory."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Stores every element you see in a 'lookup table' for instant access later. It's like having an index in a book\u2014instead of reading every page, you jump straight to the information you need."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Continuously splits a sorted search range in half. It is miraculously fast, able to find one specific value among millions of items in just a few dozen steps."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "The most straightforward 'check everything' approach. It uses nested loops to compare every element with every other element. Simple to implement but generally only works for small datasets."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "For general searching or frequency counting, the Hash Map (Dictionary) is your most powerful tool, trading a small amount of memory for incredible O(N) execution speed."
+            },
+            "d": "2026-03-05 00:33"
+        },
+        {
+            "q": "hlo how r u",
+            "r": {
+                "type": "personal",
+                "message": "I couldn't detect a specific programming problem in your message. \ud83e\udde0 Try describing a task like 'finding the shortest path in a network' or 'calculating the sum of subsets' for a detailed strategy analysis!"
+            },
+            "d": "2026-03-05 00:33"
+        },
+        {
+            "q": "my name is gowseefa",
+            "r": {
+                "type": "personal",
+                "message": "Hello! \ud83d\udc4b I noticed you're not describing a programming challenge. I'm your AI Mentor\u2014I can help you find optimal strategies for coding problems. Try pasting a problem statement about graphs, sorting, or data structures!"
+            },
+            "d": "2026-03-05 00:32"
+        },
+        {
+            "q": "my name is gowseefa",
+            "r": {
+                "type": "personal",
+                "message": "Hello! \ud83d\udc4b I noticed you're not describing a programming challenge. I'm your AI Mentor\u2014I can help you find optimal strategies for coding problems. Try pasting a problem statement about graphs, sorting, or data structures!"
+            },
+            "d": "2026-03-05 00:32"
+        },
+        {
+            "q": "my name is gowseefa",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Uses two markers (left and right) that move toward each other or in the same direction. It's incredibly efficient because it processes the entire array in a single pass without extra memory."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Stores every element you see in a 'lookup table' for instant access later. It's like having an index in a book\u2014instead of reading every page, you jump straight to the information you need."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Continuously splits a sorted search range in half. It is miraculously fast, able to find one specific value among millions of items in just a few dozen steps."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "The most straightforward 'check everything' approach. It uses nested loops to compare every element with every other element. Simple to implement but generally only works for small datasets."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "For general searching or frequency counting, the Hash Map (Dictionary) is your most powerful tool, trading a small amount of memory for incredible O(N) execution speed."
+            },
+            "d": "2026-03-05 00:27"
+        },
+        {
+            "q": "shortest path",
+            "r": {
+                "possible": [
+                    {
+                        "name": "BFS",
+                        "type": "Graph",
+                        "time": "O(V+E)",
+                        "space": "O(V)",
+                        "desc": "Ideal for finding the absolute shortest path in unweighted graphs. It explores all neighbors at the current depth before moving deeper, ensuring the first time you reach the target, it's the shortest way."
+                    },
+                    {
+                        "name": "Dijkstra",
+                        "type": "Graph",
+                        "time": "O(E log V)",
+                        "space": "O(V)",
+                        "desc": "The best choice for weighted graphs with non-negative edges. It uses a priority queue to always 'greedy' pick the closest node, guaranteeing an optimal mathematical path through complex networks."
+                    },
+                    {
+                        "name": "Bellman-Ford",
+                        "type": "Graph",
+                        "time": "O(VE)",
+                        "space": "O(V)",
+                        "desc": "A versatile algorithm that can handle weights and negative edges. It works by relaxing all edges repeatedly, making it slower than Dijkstra but much more robust against edge cases like negative cycles."
+                    },
+                    {
+                        "name": "Floyd-Warshall",
+                        "type": "Graph/DP",
+                        "time": "O(V\u00b3)",
+                        "space": "O(V\u00b2)",
+                        "desc": "A powerful Dynamic Programming approach that calculates the shortest distance between EVERY single pair of nodes in the graph simultaneously. Essential for dense graphs."
+                    }
+                ],
+                "best": "Dijkstra",
+                "reason": "Dijkstra provides the perfect balance of speed and accuracy for most weighted routing problems found in competitive programming."
+            },
+            "d": "2026-03-05 00:18"
+        },
+        {
+            "q": "average of two numbers",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-05 00:15"
+        },
+        {
+            "q": "shortest path ",
+            "r": {
+                "possible": [
+                    {
+                        "name": "BFS",
+                        "type": "Graph",
+                        "time": "O(V+E)",
+                        "space": "O(V)",
+                        "desc": "Explores layer-by-layer. Best for unweighted paths."
+                    },
+                    {
+                        "name": "Dijkstra",
+                        "type": "Graph",
+                        "time": "O(E log V)",
+                        "space": "O(V)",
+                        "desc": "Finds shortest path in weighted graphs with positive edges."
+                    },
+                    {
+                        "name": "Bellman-Ford",
+                        "type": "Graph",
+                        "time": "O(VE)",
+                        "space": "O(V)",
+                        "desc": "Handles negative weights/cycles reliably."
+                    },
+                    {
+                        "name": "Floyd-Warshall",
+                        "type": "Graph/DP",
+                        "time": "O(V\u00b3)",
+                        "space": "O(V\u00b2)",
+                        "desc": "Finds shortest paths between ALL pairs of nodes."
+                    }
+                ],
+                "best": "Dijkstra",
+                "reason": "Dijkstra is the industry standard for weighted routing, balancing speed and accuracy."
+            },
+            "d": "2026-03-05 00:06"
+        },
+        {
+            "q": "hello world",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-05 00:01"
+        },
+        {
+            "q": "factorial number",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-04 23:58"
+        },
+        {
+            "q": "average of two numbers",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-04 23:54"
+        },
+        {
+            "q": "multiplication of 5 numbers\n",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-04 23:51"
+        },
+        {
+            "q": "sum of two numbers",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Squeezes two markers for linear efficiency."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Caches previous values for instant lookups."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Halves search space repetitively on sorted data."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "Simple nested loops checking all relationships."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "In CP, trading memory for O(N) time is almost always the winning move."
+            },
+            "d": "2026-03-04 23:49"
+        }
+    ],
+    "thayeebshaik45@gmail.com": [
+        {
+            "q": "my name is thayeeb",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Uses two markers (left and right) that move toward each other or in the same direction. It's incredibly efficient because it processes the entire array in a single pass without extra memory."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Stores every element you see in a 'lookup table' for instant access later. It's like having an index in a book\u2014instead of reading every page, you jump straight to the information you need."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Continuously splits a sorted search range in half. It is miraculously fast, able to find one specific value among millions of items in just a few dozen steps."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "The most straightforward 'check everything' approach. It uses nested loops to compare every element with every other element. Simple to implement but generally only works for small datasets."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "For general searching or frequency counting, the Hash Map (Dictionary) is your most powerful tool, trading a small amount of memory for incredible O(N) execution speed."
+            },
+            "d": "2026-03-05 00:25"
+        },
+        {
+            "q": "my name is thayeeb",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Uses two markers (left and right) that move toward each other or in the same direction. It's incredibly efficient because it processes the entire array in a single pass without extra memory."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Stores every element you see in a 'lookup table' for instant access later. It's like having an index in a book\u2014instead of reading every page, you jump straight to the information you need."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Continuously splits a sorted search range in half. It is miraculously fast, able to find one specific value among millions of items in just a few dozen steps."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "The most straightforward 'check everything' approach. It uses nested loops to compare every element with every other element. Simple to implement but generally only works for small datasets."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "For general searching or frequency counting, the Hash Map (Dictionary) is your most powerful tool, trading a small amount of memory for incredible O(N) execution speed."
+            },
+            "d": "2026-03-05 00:25"
+        },
+        {
+            "q": "You are given four numbers num1, den1, num2, and den2. You need to find (num1/den1)+(num2/den2) and output the result in the form of (numx/denx).\n\nInput Format:\nThe first line of input contains an integer T denoting the number of test cases . Then T test cases follow . Each test case contains four integers num1, den1, num2, den2 respectively .\n\nOutput Format:\nFor each test case, in a new line,  output will be the fraction in the form a/b where the fraction denotes the sum of the two given fractions in reduced form.\n\nYour Task:\nSince this is a function problem, you don't need to worry about the testcases. Your task is to complete the function addFraction  which adds the two fractions and prints the resulting fraction. The function takes four arguments num1, den1, num2, den2 where num1, num2 denotes the numerators of two fractions and den1, den2 denotes their denominators.\n\nConstraints:\n1 <= T <= 100\n1 <= den1,den2,num1,num2 <= 1000\n\nExample:\nInput\n1\n1 500 2 500\nOutput\n3/500\n",
+            "r": {
+                "possible": [
+                    {
+                        "name": "Two Pointers",
+                        "type": "Array",
+                        "time": "O(N)",
+                        "space": "O(1)",
+                        "desc": "Uses two markers (left and right) that move toward each other or in the same direction. It's incredibly efficient because it processes the entire array in a single pass without extra memory."
+                    },
+                    {
+                        "name": "Hash Map",
+                        "type": "DS",
+                        "time": "O(N)",
+                        "space": "O(N)",
+                        "desc": "Stores every element you see in a 'lookup table' for instant access later. It's like having an index in a book\u2014instead of reading every page, you jump straight to the information you need."
+                    },
+                    {
+                        "name": "Binary Search",
+                        "type": "Search",
+                        "time": "O(log N)",
+                        "space": "O(1)",
+                        "desc": "Continuously splits a sorted search range in half. It is miraculously fast, able to find one specific value among millions of items in just a few dozen steps."
+                    },
+                    {
+                        "name": "Brute Force",
+                        "type": "Basics",
+                        "time": "O(N\u00b2)",
+                        "space": "O(1)",
+                        "desc": "The most straightforward 'check everything' approach. It uses nested loops to compare every element with every other element. Simple to implement but generally only works for small datasets."
+                    }
+                ],
+                "best": "Hash Map",
+                "reason": "For general searching or frequency counting, the Hash Map (Dictionary) is your most powerful tool, trading a small amount of memory for incredible O(N) execution speed."
+            },
+            "d": "2026-03-05 00:24"
+        }
+    ]
+}

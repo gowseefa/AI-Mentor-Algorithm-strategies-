@@ -1,0 +1,429 @@
+/* DashboardLayout & Shared Styles */
+.layout-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+}
+
+.sidebar {
+    width: 240px;
+    background-color: var(--card-bg);
+    border-right: 1px solid var(--card-border);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #60a5fa, #3b82f6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: var(--text-gray);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.sidebar-link:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #60a5fa;
+}
+
+.sidebar-link.active {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 240px;
+    /* Offset for fixed sidebar */
+    padding: 2.5rem 3rem;
+    max-width: 1000px;
+}
+
+/* Page Headers */
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+/* Reusable Card Styles */
+.feature-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+/* Problem Analysis (Dashboard) */
+.dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.strategy-textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 120px;
+    box-sizing: border-box;
+}
+
+.strategy-textarea:focus {
+    outline: none;
+    border-color: var(--primary-blue);
+}
+
+.btn-primary {
+    align-self: flex-start;
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: var(--primary-blue-hover);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.compact-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.compact-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.05rem;
+}
+
+.compact-stats {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.compact-badge {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #60a5fa;
+    padding: 0.15rem 0.4rem;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.compact-complexity {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #cbd5e1;
+}
+
+.compact-content p {
+    margin: 0 0 0.4rem 0;
+    font-size: 0.85rem;
+    color: var(--text-dark);
+}
+
+.desc-points {
+    margin: 0.5rem 0 0 0;
+    padding-left: 1.2rem;
+    font-size: 0.85rem;
+    color: var(--text-dark);
+    line-height: 1.4;
+}
+
+.desc-points li {
+    margin-bottom: 0.25rem;
+}
+
+.limitations {
+    color: #f87171 !important;
+}
+
+.compact-comparison {
+    background-color: var(--card-bg);
+    border-left: 3px solid #f59e0b;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.minimal-glow-box {
+    background: var(--card-bg);
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.highlight-text-small {
+    font-size: 1.5rem;
+    color: #38bdf8;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.recommended-stats {
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recommended-stats .compact-complexity {
+    color: #34d399;
+}
+
+/* History Page */
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.history-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.history-title {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.history-algo {
+    color: #60a5fa;
+    font-size: 0.85rem;
+}
+
+.history-date {
+    color: var(--text-gray);
+    font-size: 0.8rem;
+}
+
+.view-btn {
+    background-color: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--text-dark);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.view-btn:hover {
+    background-color: var(--card-border);
+}
+
+/* Chat Page */
+.chat-window {
+    height: 400px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.chat-message {
+    max-width: 75%;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.chat-sys {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #93c5fd;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+}
+
+.chat-user {
+    background-color: var(--card-border);
+    color: var(--text-dark);
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+.chat-input-area {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chat-input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--card-border);
+    color: var(--text-dark);
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.chat-input:focus {
+    border-color: var(--primary-blue);
+}
+
+/* Quiz Page */
+.quiz-q {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.quiz-option {
+    background-color: var(--bg-color);
+    border: 1px solid var(--card-border);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--text-dark);
+    cursor: pointer;
+    font-size: 0.95rem;
+    text-align: left;
+    transition: all 0.2s;
+}
+
+.quiz-option:hover:not(:disabled) {
+    border-color: var(--primary-blue);
+    background-color: rgba(59, 130, 246, 0.05);
+}
+
+.quiz-option.selected {
+    background-color: rgba(59, 130, 246, 0.2);
+    border-color: var(--primary-blue);
+}
+
+.quiz-feedback {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.feedback-correct {
+    background-color: rgba(52, 211, 153, 0.1);
+    color: #34d399;
+}
+
+.feedback-wrong {
+    background-color: rgba(248, 113, 113, 0.1);
+    color: #f87171;
+}
+
+/* Performance Page */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat-box {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-box h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-box .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin: 0;
+}
